@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <style>
+        /* Add some basic CSS to style the form */
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: justify;
+background-color: rgb(206, 32, 32);
+font-size: medium;
+font-style:normal;
+        }
+        label, textarea {
+            display: block;
+            margin-bottom: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="process_feedback.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    
+    </form>
+</body>
+</html>

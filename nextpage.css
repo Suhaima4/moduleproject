@@ -1,0 +1,27 @@
+.navbar .nav .navlink{
+    font-size: medium;
+    background-color: white;
+    background: white;
+}
+.navbarbrand{
+    font-size: large;
+    color:white;
+}
+
+body {
+    background-color: #554545,pink,violet,black;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 white#7a4c4c33;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px whitergba(0, 0, 0, 0.2);
+}
+.navbar{
+    background-color:rgb(255, 0, 34);
+    font-size: large;
+}
